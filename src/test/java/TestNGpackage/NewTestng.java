@@ -116,6 +116,8 @@ public class NewTestng {
   @AfterSuite
   public void afterSuite() {
 	  System.out.println("i am Aftersuite");
+	  System.out.println("i am github");
+	  System.out.println("github repositary");
   }
 
 }
