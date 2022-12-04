@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite">
+<test name="automation" verbose="2" preserve-order="true">
+  <groups>
+<run>
+<include name="smoke"/>
+</run>
+</groups>
+    <classes>
+      <class name="TestNGpackage.NewTestng1"/>     
+      <class name="TestNGpackage.NewTestng">
+       <methods>
+       <include name="cat"/>
+      <include name="dog"/>
+      <exclude name="apple"/>
+       </methods>
+      </class>
+    </classes>
+  </test> <!-- AutomationTest -->
+</suite> <!-- AutomationSuite -->
